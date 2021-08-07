@@ -86,15 +86,15 @@ var predis=document.querySelector(".previous");
 var oprator=document.querySelector(".oprator");
 var creditbtn=document.querySelector(".credit");
 creditbtn.addEventListener('click',()=>{
-    document.querySelector(".display").innerHTML=`<div class="flex inline">
-    <div class="previous " style=" font-family: 'Orbitron', sans-serif; font-size: medium; padding-right: 5px;">
+    document.querySelector(".display").innerHTML=`<div class="flex inline bg-green-500">
+    <div class="previous flex items-end" style=" font-family: 'Orbitron', sans-serif; font-size: medium; padding-right: 5px; ">
         <img style="width:100px;height:100px;" class="mr-5" src="https://www.animatedimages.org/data/media/202/animated-dog-image-0048.gif"/>
     </div>
 
     <div class="oprator flex justify-end pr-28" style=" font-family: 'Orbitron', sans-serif; font-size: medium; padding-right: 5px;height:120px; margin-left:90px"><img " src="https://c.tenor.com/INtDIEtFM3MAAAAj/independence-day-india-gifs.gif"/></div>
 </div>
 
-<div class="new flex justify-end  mr-3 mb-0" style=" font-family: 'Orbitron', sans-serif; font-size: x-large;">
+<div class="new flex justify-center   pr-3 " style=" font-family: 'Orbitron', sans-serif; font-size: large;">
 made by Abhishek jha
 </div>`
 })
