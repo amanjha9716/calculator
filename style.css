@@ -1,0 +1,42 @@
+
+body{
+ background-image: url("https://thumbs.dreamstime.com/b/education-schoolchild-back-to-school-stationary-notebook-alarm-clock-white-wooden-student-desk-background-top-view-155368233.jpg");
+}
+.display{
+    height:160px;
+    width:95%;
+    margin-left: 30px;
+}
+.all-btn{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    font-size:x-large;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+
+}
+.credit{
+    font-size:small;
+    
+}
+.two-btn{
+    width: 196%;
+    height: 90%;
+    display:flex;
+    font-size:x-large;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+}
+.btn{
+    height: 70%;
+    padding-left: 25px ;
+    padding-bottom: 40px;
+}
+.calculator{
+    box-shadow: 20px 20px 10px grey;
+    width:23%;
+    height: 80%;
+}

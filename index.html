@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="bg-center bg-cover">
+    <div class=" h-screen flex justify-center items-center">
+        <div class="calculator shadow-2xl bg-gray-500 rounded-3xl flex pr-3 flex-wrap justify-center">
+            <div class="display bg-gray-300 w-full m-4 rounded-2xl block-inline "> 
+                <div class="flex justify-end inline">
+                    <div class="previous " style=" font-family: 'Orbitron', sans-serif; font-size: medium; padding-right: 5px;"></div>
+                    <div class="oprator" style=" font-family: 'Orbitron', sans-serif; font-size: medium; padding-right: 5px; display:inline-block;"></div>
+                </div>
+                
+                <div class="new flex justify-end mt-14 mr-3 mb-0 max-w-40 " style=" font-family: 'Orbitron', sans-serif; font-size: x-large;">
+                    <img style="height: 100px;"src="https://c.tenor.com/mX_3_52NQvQAAAAi/skeleton-you-are-welcome.gif"/>
+                </div>
+            </div>
+            <br>
+            <div class="btn grid grid-flow-row grid-cols-4  gap-2 flex justify-center items-center h-1/1 p-2 w-full" style=" font-family: 'Orbitron', sans-serif;">
+                <div type="submit" class="bg-yellow-600 hover:bg-yellow-700 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl all-btn text-white cursor-pointer ac">AC</div>
+                <div type="submit" class="bg-yellow-600 hover:bg-yellow-700 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl all-btn text-white cursor-pointer c">C</div>
+                <div type="submit" class="bg-blue-400 hover:bg-blue-600 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl all-btn text-white  cursor-pointer credit">CREDIT</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  opr add">+</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">1</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">2</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">3</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  opr by">/</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">4</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">5</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">6</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  opr sub">-</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">7</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">8</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">9</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  opr mul">X</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num">0</div>
+                <div type="submit" class="bg-gray-400 hover:bg-gray-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer all-btn  num dot">.</div>
+                <div type="submit" class="bg-yellow-400 hover:bg-yellow-600 transition duration-500 ease-in-out transform hover:scale-90 hover:shadow-2xl text-white cursor-pointer two-btn  eql">=</div>        
+                                
+            </div>
+        </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
